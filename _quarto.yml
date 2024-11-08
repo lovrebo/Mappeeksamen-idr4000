@@ -1,0 +1,19 @@
+project: 
+  type: book
+  render: 
+    - "*.qmd"
+    - "!ny/"
+book: 
+  title: "Mappeeksamen"
+  author: "Lars Ø"
+  date: "2024-11-05"
+  chapters: 
+    - index.qmd
+    - 1Rapport.qmd
+    - Referanser.qmd
+bibliography: ref/references.bib
+format: 
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
